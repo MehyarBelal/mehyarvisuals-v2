@@ -17,3 +17,8 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+.nav-right-text{
+    color: var(--accent-gold) !important;
+}
