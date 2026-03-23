@@ -1,0 +1,11 @@
+:root {
+  --bg-primary: #0d0d0d;
+  --bg-secondary: #0a0a0a;
+
+  --text-primary: #ebe6d8;
+  --text-secondary: #a8a59e;
+
+  --accent-gold: #c5a059;
+
+  --hairline: rgba(255,255,255,0.05);
+}
