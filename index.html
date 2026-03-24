@@ -1,14 +1,6 @@
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="css/variables.css">
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/typography.css">
-<link rel="stylesheet" href="css/layout.css">
-
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Mehyar Visuals</title>
@@ -19,58 +11,72 @@
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body class="bg-black text-white font-[Inter]">
 
-  
+  <!-- NAV -->
+  <nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-10 bg-transparent border-b border-[#EBE6D8]/5 backdrop-blur-[2px]">
 
-<section class="nav-bar">
-<nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-10 bg-transparent border-b border-[#EBE6D8]/5 backdrop-blur-[2px]">
+    <!-- LEFT -->
+    <div class="flex items-center gap-6">
+      <span class="text-[#EBE6D8] tracking-[0.4em] font-bold text-xs uppercase">
+        Mehyar <span class="text-[#C5A059]">Visuals</span>
+      </span>
+      <div class="h-[1px] w-12 bg-[#C5A059]/30 hidden md:block"></div>
+    </div>
 
-    
-  <!-- LEFT -->
-  <div class="flex items-center gap-6"><span class="text-[#EBE6D8] tracking-[0.4em] font-bold text-xs uppercase group cursor-default">Mehyar <span class="text-[#C5A059]">Visuals</span></span><div class="h-[1px] w-12 bg-[#C5A059]/30 hidden md:block"></div></div>
+    <!-- CENTER -->
+    <div class="hidden md:flex items-center gap-12">
+      <a href="#" class="text-[9px] uppercase tracking-[0.3em] text-[#EBE6D8]/40 hover:text-[#C5A059] transition-all duration-500">Journal</a>
+      <a href="#" class="text-[9px] uppercase tracking-[0.3em] text-[#EBE6D8]/40 hover:text-[#C5A059] transition-all duration-500">Exhibition</a>
+      <a href="#" class="text-[9px] uppercase tracking-[0.3em] text-[#EBE6D8]/40 hover:text-[#C5A059] transition-all duration-500">Archives</a>
+      <a href="#" class="text-[9px] uppercase tracking-[0.3em] text-[#EBE6D8]/40 hover:text-[#C5A059] transition-all duration-500">Contact</a>
+    </div>
 
-  <!-- CENTER -->
-  <div class="flex gap-12">
-    
-    <a href="#" class="text-[10px] tracking-[2px] uppercase text-white/50 hover:text-[#c5a059] transition">
-      Journal
-    </a>
-    <a href="#" class="text-[10px] tracking-[2px] uppercase text-white/50 hover:text-[#c5a059] transition">
-      Exhibition
-    </a>
-    <a href="#" class="text-[10px] tracking-[2px] uppercase text-white/50 hover:text-[#c5a059] transition">
-      Archives
-    </a>
-    <a href="#" class="text-[10px] tracking-[2px] uppercase text-white/50 hover:text-[#c5a059] transition">
-      Contact
-    </a>
-  </div>
+    <!-- RIGHT -->
+    <div class="flex items-center gap-4">
+      <div class="w-1.5 h-1.5 rounded-full bg-[#C5A059] shadow-[0_0_8px_rgba(197,160,89,0.5)]"></div>
+      <span class="text-[9px] uppercase tracking-[0.2em] text-[#C5A059]">Studio Available</span>
+    </div>
 
-  <!-- RIGHT -->
-  <div class="flex items-center gap-4">
-<div class="w-1.5 h-1.5 rounded-full bg-[#C5A059] shadow-[0_0_8px_rgba(197,160,89,0.5)]"></div>
-<span class="text-[9px] uppercase tracking-[0.2em] text-[#C5A059]">Studio Available</span>
-  </div>
+  </nav>
 
-</nav>
-</section>
-    <section class="hero">
-  <div class="overlay"></div>
+  <!-- HERO -->
+  <section class="relative h-screen overflow-hidden">
 
-  <div class="hero-content">
-    <h1>THE FILM ARCHIVES</h1>
-    <p>Visual narratives curated through time</p>
-  </div>
-</section>
+    <!-- BACKGROUND -->
+    <div class="absolute inset-0 z-0">
+      <img 
+        src="https://images.unsplash.com/photo-1675935122748-126b31364e14?auto=format&fit=crop&w=1920&q=80"
+        class="w-full h-full object-cover brightness-[0.4] saturate-[0.8]"
+      >
+    </div>
 
-  <section class="hero">
-  <div class="overlay" style="background-image: url('https://images.unsplash.com/photo-1475359524104-d101d02a042b?q=80&w=1294&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+    <!-- CONTENT -->
+    <div class="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
 
-  <div class="hero-content">
-    <h1>THE FILM ARCHIVES</h1>
-    <p>Visual narratives curated through time</p>
-  </div>
-</section>
+      <span class="text-[#C5A059] text-[10px] uppercase tracking-[0.8em] mb-10 font-bold">
+        A Visual Narrative
+      </span>
+
+      <h1 class="text-5xl md:text-8xl font-black text-[#EBE6D8] mb-12 tracking-[0.15em] uppercase leading-[0.9]">
+        The Film <br>
+        <span class="text-[#EBE6D8]/40">Archives</span>
+      </h1>
+
+      <div class="flex items-center gap-12 mt-16">
+        <div class="h-[1px] w-24 bg-[#C5A059]/20"></div>
+
+        <button class="text-[#EBE6D8] hover:text-[#C5A059] text-[9px] uppercase tracking-[0.4em] hover:tracking-[0.6em] transition-all duration-500 font-bold">
+          Enter Studio
+        </button>
+
+        <div class="h-[1px] w-24 bg-[#C5A059]/20"></div>
+      </div>
+
+    </div>
+
+  </section>
+
 </body>
 </html>
