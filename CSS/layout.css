@@ -23,3 +23,7 @@
 .nav-right-text{
     color: var(--accent-gold) !important;
 }
+
+.hero-top{
+  margin-top: 5.7rem !important;
+}
