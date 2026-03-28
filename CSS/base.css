@@ -16,3 +16,11 @@ body {
       line-height: 0.9 !important;
     }
 }
+
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
