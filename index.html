@@ -750,6 +750,21 @@ gsap.fromTo(".hero-content",
     }
   }
 );
+
+
+
+gsap.utils.toArray(".group").forEach((el) => {
+  gsap.from(el, {
+    scrollTrigger: {
+      trigger: el,              // 👈 each card triggers itself
+      start: "top 92%",
+      toggleActions: "play none none reverse"
+    },
+    opacity: 0,
+    duration: 0.7,
+    ease: "none"
+  });
+});
 </script>
 
 
